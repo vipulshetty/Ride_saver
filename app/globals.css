@@ -6,6 +6,12 @@
   --background: #ffffff;
   --foreground: #171717;
 }
+/* styles/globals.css or styles/Input.module.css */
+.custom-input::placeholder {
+  background-color: lightgray; /* Change to your desired color */
+  padding: 0 4px; /* Ensure the background is visible */
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
